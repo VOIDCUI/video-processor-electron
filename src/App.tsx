@@ -6,7 +6,9 @@ import ExportSettings from './components/ExportSettings'
 import ProgressBar from './components/ProgressBar'
 
 // 使用 FFmpeg 类实例化
-const ffmpeg = new FFmpeg()  // 直接创建 FFmpeg 实例
+const ffmpeg = new FFmpeg()  // 直接创建 FFmpeg 实例 
+
+
 
 export default function App() {
 	const [videoPath, setVideoPath] = useState('')
